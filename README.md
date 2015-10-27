@@ -23,13 +23,14 @@
 
 1. **Owner**: add text to line 1 (after 1).  
 _ex:_ `1 Mr. Mueller wuz here!`  
-2. **Collaborator**: add text to line 3.  
+2. **Collaborator**: add text to line 3 (NOT line 2).  
 _ex:_ `2 Mr. Shmueller wuz here!`  
-### SIDENOTE:  There must be one extra line BETWEEN the edits.  Otherwise, you will get a merge conflict.
+### IMPORTANT SIDENOTE:  There must be one extra line BETWEEN the edits.  Otherwise, you will get a merge conflict.
 3. **Owner**: `add`, `commit`, and `push`.  You shouldn't have any issues.
-4. **Collaborator**: Try to do `git pull`.  You will be prompted with an error that says 
+4. **Collaborator**: Try to do `git pull`.  You will be prompted with an error that ends with: 
 ```
-Please, commit your changes or stash them before you can merge. Aborting.  
+Please, commit your changes or stash them before you can merge. 
+Aborting.  
 ```  
   a.  So following the directions, you must `add` and `commit`. Go ahead and do that.  
   b.  Well you're in the habit of doing `add`, `commit`, and `push`, so go ahead and try `push`ing. You should see an error:
@@ -39,4 +40,21 @@ hint: its remote counterpart. Integrate the remote changes (e.g.
 hint: 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```
-5. 
+  c. So you have to do `git pull`.  Then press `^X` (control X) to skip adding a "merge message". You should see the changes merged automatically!  
+  d. A quick `git status` will show you that you still need to `push`.  Do that.
+5. **Owner**: do a `git pull` to see your collaborator's changes as well!
+6. Let's practice again, but this time in the other direction:  
+  a. This time, **collaborator**: add some text to line 5, then `add`/`commit`/`push`.  
+  b. And **owner**, you add text to line 7.  
+  c. Repeat the same process as above, but this time so that the **owner** has to `pull`.  
+7. By the end of this Task, both partners should have the same text on lines 1/3/5/7, and a `git status` (for both partners) should say:
+
+```
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+nothing to commit, working directory clean
+```  
+
+---
+
