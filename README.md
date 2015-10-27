@@ -21,4 +21,22 @@
 
 ## Task 1: Automatic merges _(no errors)_
 
-1. Step 1
+1. **Owner**: add text to line 1 (after 1).  
+_ex:_ `1 Mr. Mueller wuz here!`  
+2. **Collaborator**: add text to line 3.  
+_ex:_ `2 Mr. Shmueller wuz here!`  
+### SIDENOTE:  There must be one extra line BETWEEN the edits.  Otherwise, you will get a merge conflict.
+3. **Owner**: `add`, `commit`, and `push`.  You shouldn't have any issues.
+4. **Collaborator**: Try to do `git pull`.  You will be prompted with an error that says 
+```
+Please, commit your changes or stash them before you can merge. Aborting.  
+```  
+  a.  So following the directions, you must `add` and `commit`. Go ahead and do that.  
+  b.  Well you're in the habit of doing `add`, `commit`, and `push`, so go ahead and try `push`ing. You should see an error:
+```
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+```
+5. 
