@@ -47,7 +47,20 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
   a. This time, **collaborator**: add some text to line 5, then `add`/`commit`/`push`.  
   b. And **owner**, you add text to line 7.  
   c. Repeat the same process as above, but this time so that the **owner** has to `pull`.  
-7. By the end of this Task, both partners should have the same text on lines 1/3/5/7, and a `git status` (for both partners) should say:
+7. By the end of this Task, both partners should see
+
+```
+1 owner's text
+2
+3 collaborator's text
+4
+5 collaborator's text
+6
+7 owner's text
+...
+```  
+
+and a `git status` (for both partners) should say:
 
 ```
 On branch master
@@ -55,6 +68,29 @@ Your branch is up-to-date with 'origin/master'.
 
 nothing to commit, working directory clean
 ```  
+
+---
+
+## Task 2: Merge Conflicts
+
+1. **Owner**: On line 9, write `GitHub is awesome`.  
+  a. Then `add`, `commit`, and `push`.
+2. **Collaborator**: On line 9, write `GitHub is really good`.  
+  a. You can `add` and `commit`, but just like _Task 1_, you have to `pull` before you can `push`.    
+  b. You now have your first merge conflict!  It should contain:  
+```
+<<<<<<< HEAD
+#### 9 GitHub is really good
+=======
+#### 9 GitHub is awesome
+>>>>>>> 7e089a7d32f138cd7e8750eeabf5d80d9812d359
+```
+3. **Collaborator**: You must fix the merge conflict by doing the following:  
+  a. Remove `<<<<<<< HEAD` and `=======` and `>>>>>>> 7e089a7d32f138cd7e8750eeabf5d80d9812d359`. This tells Git that you are resolving the merge conflict.  
+  b. Because you are a human, you can make the smart decision about how to merge these two lines.  Let's make it say `GitHub is really awesome`.  
+  c. Using `git status`, you will see that you have to re-`add`, `commit`, and now you can `push`.
+4. **Owner**: `pull`ing will show you the merged line 9.
+5. Practice again on line `11`, but this time let the **Owner** resolve the merge conflict.  Write whatever sentence you want.
 
 ---
 
