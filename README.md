@@ -48,6 +48,7 @@ hint: See the 'Note about fast-forwards' in 'git push --help' for details.
 ```  
   c. So you have to do `git pull`.  Then press `^X` (control X) to skip adding a "merge message". You should see the changes merged automatically!  
   d. A quick `git status` will show you that you still need to `push`.  Do that.  
+  
 5. **Owner**: do a `git pull` to see your collaborator's changes as well!  
 6. Let's practice again, but this time in the other direction:  
   a. This time, **collaborator**: add some text to line 5, then `add`/`commit`/`push`.  
