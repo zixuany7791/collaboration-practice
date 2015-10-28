@@ -1,11 +1,13 @@
 # Collaboration Practice
 ## _Practicing Merges & Conflicts_
 
+The purpose of this activity is to practice collaboration with Git and GitHub.  You will practice both automatic merges as well as merge conflicts (and resolving those conflicts).
+
 ---
 
 ## Task 0: Setting Up
 
-1. Partner up. The directions for this repo are meant for two people.  If there is a third person, just rotate drivers/navigators.
+1. Partner up. The directions for this activity are meant for two people.  If there is a third person, just rotate drivers/navigators.
 2. Notice the files in this repo:  
   a. **README.md**: these directions _(do not alter this file)_  
   b. **line-numbers.md**: where you will practice!
