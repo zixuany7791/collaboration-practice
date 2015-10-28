@@ -75,9 +75,9 @@ nothing to commit, working directory clean
 
 ## Task 2: Merge Conflicts
 
-1. **Owner**: On line 9, write `GitHub is awesome`.  
+1. **Owner**: On line 9, write `GitHub is awesome.`  
   a. Then `add`, `commit`, and `push`.
-2. **Collaborator**: On line 9, write `GitHub is really good`.  
+2. **Collaborator**: On line 9, write `GitHub is really good.`  
   a. You can `add` and `commit`, but just like _Task 1_, you have to `pull` before you can `push`.    
   b. You now have your first merge conflict!  It should contain:  
 ```
