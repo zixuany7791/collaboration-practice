@@ -31,23 +31,23 @@ NOTE 2: after you type each command, make sure you READ what your command line s
 _ex:_ `1 Mr. Mueller wuz here!`  
 2. **Collaborator**: add text to line 3 (NOT line 2).  
 _ex:_ `2 Mr. Shmueller wuz here!`  
-### IMPORTANT SIDENOTE:  There must be one extra line BETWEEN the edits.  Otherwise, you will get a merge conflict.
-3. **Owner**: `add`, `commit`, and `push`.  You shouldn't have any issues.
-4. **Collaborator**: Try to do `git pull`.  You will be prompted with an error that ends with: 
+### IMPORTANT SIDENOTE:  There must be one extra line BETWEEN the edits.  Otherwise, you will get a merge conflict.  
+3. **Owner**: `add`, `commit`, and `push`.  You shouldn't have any issues.  
+4. **Collaborator**: Try to do `git pull`.  You will be prompted with an error that ends with:  
 ```
 Please, commit your changes or stash them before you can merge. 
 Aborting.  
 ```  
   a.  So following the directions, you must `add` and `commit`. Go ahead and do that.  
-  b.  Well you're in the habit of doing `add`, `commit`, and `push`, so go ahead and try `push`ing. You should see an error:
-```
+  b.  Well you're in the habit of doing `add`, `commit`, and `push`, so go ahead and try `push`ing. You should see an error:  
+```  
 hint: Updates were rejected because the tip of your current branch is behind
 hint: its remote counterpart. Integrate the remote changes (e.g.
 hint: 'git pull ...') before pushing again.
 hint: See the 'Note about fast-forwards' in 'git push --help' for details.
-```
+```  
   c. So you have to do `git pull`.  Then press `^X` (control X) to skip adding a "merge message". You should see the changes merged automatically!  
-  d. A quick `git status` will show you that you still need to `push`.  Do that.
+  d. A quick `git status` will show you that you still need to `push`.  Do that.  
 5. **Owner**: do a `git pull` to see your collaborator's changes as well!
 6. Let's practice again, but this time in the other direction:  
   a. This time, **collaborator**: add some text to line 5, then `add`/`commit`/`push`.  
