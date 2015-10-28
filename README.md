@@ -14,8 +14,10 @@
 5. **Collaborator**: check your email.  You should receive an email that contains a link to this remote repo and a message saying "You can now push to this repository."  Open the link.
 6. **Both partners**: copy the `SSH URL`. In your IDE, make sure you are in `~/workspace` and then `git clone URL`.  Then `cd` into `collaboration-test`.
 7. The best way to do this activity is to open up:  
-  a. the **Preview** of `README.md` _(but you don't need the raw markdown)_  
-  b. the **raw markdown** of `line-numbers.md` _(but you don't need the preview)_  
+  a. the **raw markdown** of `line-numbers.md` _(but you don't need the preview)_  
+  b. the **Preview** of `README.md` _(but you don't need the raw markdown)_ 
+
+NOTE: it is easier to see `code snippets` on GitHub, so feel free to read the directions on there instead of your IDE.  
 
 ---
 
@@ -94,3 +96,6 @@ nothing to commit, working directory clean
 
 ---
 
+## Task 3: Practice
+
+Continue editing collaboratively! Practice adding, editing, and removing text. When you are editing in the future, you won't have this kind of step-by-step guidance. So just make changes, and practice resolving merge conflicts!
