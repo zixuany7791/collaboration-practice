@@ -19,7 +19,9 @@ The purpose of this activity is to practice collaboration with Git and GitHub.  
   a. the **raw markdown** of `line-numbers.md` _(but you don't need the preview)_  
   b. the **Preview** of `README.md` _(but you don't need the raw markdown)_ 
 
-NOTE: it is easier to see `code snippets` on GitHub, so feel free to read the directions on there instead of in your IDE.  
+NOTE 1: it is easier to see `code snippets` on GitHub, so feel free to read the directions on there instead of in your IDE.  
+
+NOTE 2: after you type each command, make sure you READ what your command line says back to you!  For example, if you type `commiy` instead of `commit`, you will get an error!  If you get into this habit, you will save yourself a lot of headache!
 
 ---
 
