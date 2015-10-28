@@ -1,4 +1,4 @@
-# Collaboration Test
+# Collaboration Practice
 ## _Practicing Merges & Conflicts_
 
 ---
