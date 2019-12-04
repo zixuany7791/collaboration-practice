@@ -14,7 +14,7 @@ The purpose of this activity is to practice collaboration with Git and GitHub.  
 3. Decide on ONE person to fork this repo. You are the owner.  From now on, you will be referred to as the **owner**.  Go ahead and fork this repo.
 4. **Owner**: Settings (gear icon) > Collaborators > type your partner's username and "Add Collaborator".  From now on, they will be referred to as the **collaborator**.
 5. **Collaborator**: check your email.  You should receive an email that contains a link to this remote repo and a message saying "You can now push to this repository."  Open the link.
-6. **Both partners**: copy the `SSH URL` of the _forked repo_ (NOT the original). In your IDE, make sure you are in `~/workspace` and then `git clone URL`.  Then `cd` into `collaboration-practice`.  
+6. **Both partners**: copy the `SSH URL` of the _forked repo_ (NOT the original). In your IDE, make sure you are in `~/github-learning/` and then `git clone URL`.  Then `cd` into `collaboration-practice`.  
 7. The best way to do this activity is to open up:  
   a. the **raw markdown** of `line-numbers.md` _(but you don't need the preview)_  
   b. the **Preview** of `README.md` _(but you don't need the raw markdown)_ 
