@@ -20,7 +20,7 @@ The purpose of this activity is to practice collaboration with Git and GitHub.  
   b. the **Preview** of `README.md` _(but you don't need the raw markdown)_  
   (see the screenshot below)
 
-<img src="workflow.png">
+<img src="workspace.png">
 
 NOTE 1: it is easier to see `code snippets` on GitHub, so feel free to read the directions on there instead of in your IDE.  
 
