@@ -8,13 +8,19 @@ The purpose of this activity is to practice collaboration with Git and GitHub.  
 ## Task 0: Setting Up
 
 1. Partner up. The directions for this activity are meant for two people. If there is a third person, just rotate drivers/navigators.
+
 2. Notice the files in this repo:  
   a. **README.md**: these directions _(do not alter this file)_  
   b. **line-numbers.md**: where you will practice!
+
 3. Decide on ONE person to fork this repo. You are the owner. From now on, you will be referred to as the **owner**. Go ahead and fork this repo.
+
 4. **Owner**: Settings (repo gear icon) > Left sidebar: Manage Access > Invite a collaborator > type your partner's username and then add them. From now on, they will be referred to as the **collaborator**.
+
 5. **Collaborator**: check your email. You should receive an email that contains a link to this remote repo and a message saying "You can now push to this repository." Open the link. (you will NOT fork anything)
+
 6. **Both partners**: copy the `SSH URL` of the _forked repo_ (NOT the original). In your IDE, make sure you are in `~/wd/classwork/` and then `git clone URL`.  Then `cd` into `collaboration-practice`.  
+
 7. The best way to do this activity is to open up:  
   a. the **raw markdown** of `line-numbers.md` _(but you don't need the preview)_  
   b. the **Preview** of `README.md` _(but you don't need the raw markdown)_  
@@ -90,6 +96,7 @@ nothing to commit, working directory clean
 
 1. **Owner**: On line 9, write `GitHub is awesome.`  
   a. Then `add`, `commit`, and `push`.
+
 2. **Collaborator**: On line 9, write `GitHub is really good.`  
   a. You can `add` and `commit`, but just like _Task 1_, you have to `pull` before you can `push`.    
   b. You now have your first merge conflict! It should contain:  
@@ -100,11 +107,14 @@ nothing to commit, working directory clean
 #### 9 GitHub is awesome.
 >>>>>>> 7e089a7d32f138cd7e8750eeabf5d80d9812d359
 ```
+
 3. **Collaborator**: You must fix the merge conflict by doing the following:  
   a. Remove `<<<<<<< HEAD` and `=======` and `>>>>>>> 7e089a7d32f138cd7e8750eeabf5d80d9812d359`. This tells Git that you are resolving the merge conflict.  
   b. Because you are a human, you can make the smart decision about how to merge these two lines. Let's make it say `GitHub is really awesome`.  
   c. Using `git status`, you will see that you have to re-`add`, `commit`, and now you can `push`.
+
 4. **Owner**: `pull`ing will show you the merged line 9.
+
 5. Practice again on line `11`, but this time let the **Owner** resolve the merge conflict. Write whatever sentence you want.
 
 ---
