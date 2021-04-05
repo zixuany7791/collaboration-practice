@@ -17,7 +17,7 @@ The purpose of this activity is to practice collaboration with Git and GitHub.  
 
 4. **Owner**: Settings (repo gear icon) > Left sidebar: Manage Access > Invite a collaborator > type your partner's username and then add them. From now on, they will be referred to as the **collaborator**.
 
-5. **Collaborator**: check your email. You should receive an email that contains a link to this remote repo and a message saying "You can now push to this repository." Open the link. (you will NOT fork anything)
+5. **Collaborator**: check your email. You should receive an email that contains a link to this remote repo and a message saying "You can now push to this repository." Open the invitation and _Accept_ it. (you will NOT fork anything)
 
 6. **Both partners**: copy the `SSH URL` of the _forked repo_ (NOT the original). In your IDE, make sure you are in `~/wd/classwork/` and then `git clone URL`.  Then `cd` into `collaboration-practice`.  
 
