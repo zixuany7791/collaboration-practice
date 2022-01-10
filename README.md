@@ -123,6 +123,6 @@ nothing to commit, working directory clean
 
 Work together to try to make what you see in the screenshot below. You can divide and conquer, but `add`/`commit`/`pull`/`push` frequently. Hopefully you get both **automatic** merges and **merge** conflicts!
 
-All starter code is in `extension.html`.
+All starter code is in [extension.html](extension.html).
 
 <img src="extension.png">
