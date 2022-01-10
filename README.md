@@ -119,6 +119,10 @@ nothing to commit, working directory clean
 
 ---
 
-## Task 3: More Practice
+## Task 3: Extension
 
-Continue editing collaboratively! Practice adding, editing, and removing text. When you are editing in the future, you won't have this kind of step-by-step guidance. So just make changes, and practice resolving merge conflicts!
+Work together to try to make what you see in the screenshot below. You can divide and conquer, but `add`/`commit`/`pull`/`push` frequently. Hopefully you get both **automatic** merges and **merge** conflicts!
+
+All starter code is in `extension.html`.
+
+<img src="extension.png">
