@@ -19,7 +19,7 @@ The purpose of this activity is to practice collaboration with Git and GitHub.  
 
 5. **Collaborator**: check your email. You should receive an email that contains a link to this remote repo and a message saying "You can now push to this repository." Open the invitation and _Accept_ it. (you will NOT fork anything)
 
-6. **Both partners**: copy the `SSH URL` of the _forked repo_ (NOT the original). In your IDE, make sure you are in `~/wd/classwork/` and then `git clone URL`.  Then `cd` into `collaboration-practice`.  
+6. **Both partners**: copy the `SSH URL` of the _forked repo_ (NOT the original). In your IDE, make sure you are in `wd/classwork/` and then `git clone URL`.  Then `cd` into `collaboration-practice`.  
 
 7. The best way to do this activity is to open up:  
   a. the **raw markdown** of `line-numbers.md` _(but you don't need the preview)_  
