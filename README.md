@@ -21,16 +21,9 @@ The purpose of this activity is to practice collaboration with Git and GitHub.  
 
 6. **Both partners**: copy the `SSH URL` of the _forked repo_ (NOT the original). In your IDE, make sure you are in `wd/classwork/` and then `git clone URL`.  Then `cd` into `collaboration-practice`.  
 
-7. The best way to do this activity is to open up:  
-  a. the **raw markdown** of `line-numbers.md` _(but you don't need the preview)_  
-  b. the **Preview** of `README.md` _(but you don't need the raw markdown)_  
-  (see the screenshot below)
+7. Open up: `line-numbers.md`. This is where you will be doing your coding.
 
-<img src="workspace.png">
-
-NOTE 1: it is easier to see `code snippets` on GitHub, so feel free to read the directions on there instead of in your IDE.  
-
-NOTE 2: after you type each command, make sure you READ what your command line says back to you!  For example, if you type `commiy` instead of `commit`, you will get an error!  If you get into this habit, you will save yourself a lot of headache!
+NOTE: after you type each command, make sure you READ what your command line says back to you!  For example, if you type `commiy` instead of `commit`, you will get an error!  If you get into the habit of proofreading, you will save yourself a lot of headache!
 
 ---
 
