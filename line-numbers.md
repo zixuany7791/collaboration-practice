@@ -6,7 +6,7 @@
 #### 6
 #### 7 Yu is here!
 #### 8
-#### 9 github is really good
+#### 9 github is really awesome
 #### 10
 #### 11
 #### 12
